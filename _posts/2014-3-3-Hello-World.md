@@ -9,9 +9,10 @@ title: First Test Post Update
 
 ### Heading 3
 
-**This should be in BOLD**
+*This should be in BOLD*
 
 This is now just normal text
+
 ---
 
 
