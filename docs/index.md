@@ -9,9 +9,28 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
+
+Virtual environment needs to be activated first 
+
+``` cmd
+
+.venv\scripts\activate
+
+```
+
+
 ## Project layout
 
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+
+## Links
+
+[Blog post for setup](https://jameswillett.dev/getting-started-with-material-for-mkdocs/)
+
+[Video for setup](https://www.youtube.com/watch?v=xlABhbnNrfI)
+
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
