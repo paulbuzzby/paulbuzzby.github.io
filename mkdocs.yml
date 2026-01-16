@@ -27,6 +27,13 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange  
+
+extra_javascript: 
+    # without this, matjax does not render
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML    
+    - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
@@ -47,3 +54,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - tables
+  - md_in_html
