@@ -18,7 +18,7 @@ I have ring buffer that can store 500 of these results before it will overwrite 
 For my search run I set the record rate at 4hz (giving just over 2 minutes of record time) with the mouse dumping the buffer when the mouse stops.
 For my home maze the speed run can be done in 25ish seconds so the sensor data is recorded at 20hz and dumped once the mouse gets to the goal.
 
-The dumped data is multiplies back by 4, which is probably a waste but it gives the same number range I am used to seeing. It doesn't seem to make any difference to produced graphs. 
+The dumped data is multiplied back by 4, which is probably a waste but it gives the same number range I am used to seeing. It doesn't seem to make any difference to produced graphs. 
 
 Attached are the 2 runs I have done on my home maze. The search run is a full out and back search with sensor data recorded every 250ms (4hz). The speed run is just from home to goal but recorded at 20hz. 
 On my home setup my goal cell is (1,0)
